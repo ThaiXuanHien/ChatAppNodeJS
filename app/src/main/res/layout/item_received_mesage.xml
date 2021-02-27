@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+
+        android:id="@+id/txtItemNameReceivedMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Hien XT"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:text="demoooooooooooooooooooooooooooooooooo"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="64dp"
+        android:id="@+id/txtItemReceivedMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtItemNameReceivedMessage"
+        android:background="@color/blue"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textSize="23sp">
+
+    </TextView>
+
+</RelativeLayout>
